@@ -1,0 +1,18 @@
+.temp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.normal {
+  background-color: green;
+}
+.cold {
+  background-color: blue;
+}
+.hot {
+  background-color: rgb(243, 124, 51);
+}

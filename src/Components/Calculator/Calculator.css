@@ -1,0 +1,38 @@
+.calculatorBox {
+  width: 300px;
+}
+.screen {
+  background-color: rgb(159, 168, 176);
+  height: 50px;
+}
+.pasi {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 26px;
+}
+.oq {
+  width: 74px;
+  height: 74px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgb(159, 168, 176);
+  border-bottom: 1px solid rgb(159, 168, 176);
+}
+.sariq {
+  width: 74px;
+  display: flex;
+  border-bottom: 1px solid rgb(159, 168, 176);
+  justify-content: center;
+  align-items: center;
+  height: 74px;
+  background-color: orange;
+  border-right: 2px solid rgb(159, 168, 176);
+}
+.sariq:last-child {
+  border-right: 1px solid rgb(159, 168, 176);
+}
+.nol {
+  width: 149px;
+}
